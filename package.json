@@ -1,6 +1,6 @@
 {
   "name": "gatsby-blog",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "gatsby-blog",
   "author": "kart jim",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "dev": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
