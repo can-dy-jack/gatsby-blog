@@ -40,6 +40,11 @@ const Layout = ({ pageTitle, children }) => {
                         Blog
                         </Link>
                     </li>
+                    <li className={navLinkItem}>
+                        <a href="/___graphql" className={navLinkText}>
+                        graphql
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <main>
