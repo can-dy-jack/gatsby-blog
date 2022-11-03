@@ -2,6 +2,7 @@ import * as React from 'react'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { graphql } from 'gatsby' 
 
 const BlogPost = ({ data, children }) => {
   const image = getImage(data.mdx.frontmatter.hero_image)
