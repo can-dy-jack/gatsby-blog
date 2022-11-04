@@ -1,0 +1,33 @@
+.head {
+    background-color: #fff;
+    display: flex;
+    height: 50px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    /* FIXME */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.logo {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.logo div, .logo span {
+    margin-left: 5px;
+}
+.links {
+    display: flex;
+}
+.links a {
+    color: var(--color);
+    border: none;
+    font-weight: 700;
+    margin: 5px;
+}
+.links a:hover {
+    color: var(--main-color);
+}
+
+
+

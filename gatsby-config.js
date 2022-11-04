@@ -1,6 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `my new blog!`,
+    title: `陈科衡的博客`,
+    subtitle: `陈科衡的gatsby博客`,
+    description: `陈科衡的gatsby博客`,
+    keywords: '',
+    author: "kartjim",
+    authorGithub: "https://github.com/can-dy-jack",
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {

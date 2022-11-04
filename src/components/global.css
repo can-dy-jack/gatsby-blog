@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f9fafe;
+    color: var(--color);
+}
+
+:root {
+    /* 主色 */
+    --main-color: #663199;
+    --color: #232323;
+    /* 配色 */
+    --primary: rgb(255, 74, 74);
+    --success: rgb(43, 198, 245);
+    --info: rgb(43, 63, 245);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+    transition: all 300ms linear;
+    border-bottom: 1px solid var(--main-color);
+}
+a:hover {
+    color: var(--color);
+}
+
