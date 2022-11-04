@@ -25,8 +25,8 @@ export default function Head() {
                 <span>{ data.site.siteMetadata.title }</span>
             </div>
             <nav className={links}>
-                <Link to='#'>Home</Link>
-                <Link to='#'>Posts</Link>
+                <Link to='/'>Home</Link>
+                <Link to='/about'>About</Link>
             </nav>
         </header>
     )
