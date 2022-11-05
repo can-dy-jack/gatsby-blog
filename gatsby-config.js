@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-blog", 
   siteMetadata: {
     title: `陈科衡的博客`,
     subtitle: `陈科衡的gatsby博客`,
