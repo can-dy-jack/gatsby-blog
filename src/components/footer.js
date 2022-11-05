@@ -27,16 +27,16 @@ function Footer() {
                 <div>
                     <span>友链</span>
                     {/* FIXME */}
-                    <a href="https://www.docusaurus.cn/" rel="friends-link" target="_blank" >Docusaurus</a>
-                    <a href="https://github.com/" rel="friends-link" target="_blank" >GitHub</a>
-                    <a href="https://leetcode.cn/" rel="friends-link" target="_blank" >leetcode.cn</a>
+                    <a href="https://www.docusaurus.cn/" rel="noreferrer" target="_blank" >Docusaurus</a>
+                    <a href="https://github.com/" rel="noreferrer" target="_blank" >GitHub</a>
+                    <a href="https://leetcode.cn/" rel="noreferrer" target="_blank" >leetcode.cn</a>
                 </div>
                 <div>
                     <span>前端必逛网站</span>
                     {/* FIXME */}
-                    <a href="https://developer.mozilla.org/zh-CN/" rel="friends-link" target="_blank" >MDN</a>
-                    <a href="https://github.com/" rel="friends-link" target="_blank" >GitHub</a>
-                    <a href="https://frontendmasters.com/courses/" rel="friends-link" target="_blank" >Frontend Masters</a>
+                    <a href="https://developer.mozilla.org/zh-CN/" rel="noreferrer" target="_blank" >MDN</a>
+                    <a href="https://github.com/" rel="noreferrer" target="_blank" >GitHub</a>
+                    <a href="https://frontendmasters.com/courses/" rel="noreferrer" target="_blank" >Frontend Masters</a>
                 </div>
             </section>
             <section className={infos}>

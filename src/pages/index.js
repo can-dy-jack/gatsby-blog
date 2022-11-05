@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
         <p className={styles.indexIntroSubtitle}>{ data.site.siteMetadata.subtitle }</p>
         <p>
           <Link className='btn' to='#'>Read My Posts { "->" }</Link>
-          <Link className='btn' to='#'>Read My Blog { "->" }</Link>
+          <Link className='btn' to='/about'>About me👉</Link>
         </p>
       </section>
       <section className={styles.infoBox}>

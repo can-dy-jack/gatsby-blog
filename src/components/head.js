@@ -17,12 +17,14 @@ export default function Head() {
     return (
         <header className={head}>
             <div className={logo}>
+                <Link to="/">
                 <StaticImage 
                     alt="logo" 
                     src="../images/logo.jpg"
                     height={40}
                     width={40} />
                 <span>{ data.site.siteMetadata.title }</span>
+                </Link>
             </div>
             <nav className={links}>
                 <Link to='/'>Home</Link>

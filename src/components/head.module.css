@@ -9,12 +9,16 @@
     padding: 0 10px;
 }
 .logo {
-    display: flex;
     height: 40px;
-    align-items: center;
 }
 .logo div, .logo span {
     margin-left: 5px;
+}
+.logo a {
+    border: none;
+    display: flex;
+    height: 40px;
+    align-items: center;
 }
 .links {
     display: flex;

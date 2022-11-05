@@ -29,7 +29,6 @@ a:hover {
 }
 
 
-/* components */
 .btn {
     outline: none;
     border: 1px solid #fff;
@@ -63,4 +62,17 @@ a:hover {
 ::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
     border: 1px solid #fff;
+}
+
+.article {
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.article pre {
+    width: 100%;
+    overflow: auto;
+}
+.article p {
+    word-wrap: break-word;
 }

@@ -1,15 +1,18 @@
 import React from 'react'
-import Layout from '../components/layout'
 import Seo from '../components/seo'
+import Layout from '../components/layout'
+import About from '../posts/about.mdx'
 
 const AboutPage = () => {
-  return (
-    <Layout pageTitle="About Me">
-      <article></article>
-    </Layout>
-  )
+    return (
+      <Layout>
+        <article className='article'>
+            <About />
+        </article>
+      </Layout>
+    )
 }
 
-export const Head = () => <Seo title="About me"/>
+export const Head = () => <Seo title="About me" />
 
 export default AboutPage
