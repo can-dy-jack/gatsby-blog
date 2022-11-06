@@ -28,6 +28,7 @@ export default function Head() {
             </div>
             <nav className={links}>
                 <Link to='/'>Home</Link>
+                <Link to='/doc/'>Doc</Link>
                 <Link to='/about'>About</Link>
             </nav>
         </header>
